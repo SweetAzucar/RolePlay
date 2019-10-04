@@ -11,6 +11,9 @@ namespace RoleplayGame.Items
                 return Magia.AttackPower + 20;
             }
         }
-
+        public override string ToString()
+        {
+            return "Arco Magico";
+        }
     }
 }
