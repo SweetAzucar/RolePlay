@@ -10,5 +10,9 @@ namespace RoleplayGame.Items
             return magia.AttackPower+15;
         }  
        }
+       public override string ToString()
+        {
+            return "Varita Magica";
+        }
     }
 }

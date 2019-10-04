@@ -18,5 +18,6 @@ namespace RoleplayGame.Items
                 return 75;
             }
         }
+       
     }
 }

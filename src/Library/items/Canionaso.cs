@@ -21,6 +21,5 @@ namespace RoleplayGame.Items
         {
             return "Cañonaso";
         }
-
     }
 }
