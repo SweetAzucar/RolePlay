@@ -1,23 +1,21 @@
 namespace RoleplayGame.Items
 {
-    public class Canionaso : IAttackItem
+    public class Palo : IAttackItem
     {
         /// <summary>
-        /// El poder de ataque
+        /// El palo del troll
         /// </summary>
         /// <value></value>
         public int AttackPower
         {
             get
             {
-                return 100;
+                return 10;
             }
         }
-
         public override string ToString()
         {
-            return "Cañonaso";
+            return "Palo";
         }
-
     }
 }

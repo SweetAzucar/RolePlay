@@ -1,12 +1,15 @@
 namespace RoleplayGame.Items
 {
-    public class Canionaso : IAttackItem
+    /// <summary>
+    /// Defensa natural del Troll
+    /// </summary>
+    public class Coraza : IDefenseItem
     {
         /// <summary>
-        /// El poder de ataque
+        /// El poder de defensa de la coraza del Troll
         /// </summary>
-        /// <value></value>
-        public int AttackPower
+
+        public int DefensePower
         {
             get
             {
@@ -16,8 +19,7 @@ namespace RoleplayGame.Items
 
         public override string ToString()
         {
-            return "Cañonaso";
+            return "Coraza";
         }
-
     }
 }

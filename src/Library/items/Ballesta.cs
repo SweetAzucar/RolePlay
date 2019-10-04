@@ -1,7 +1,7 @@
 namespace RoleplayGame.Items
 {
     /// <summary>
-    /// Túnica. Permite defenderse levemente.
+    /// Item de ataque, Ballesta
     /// </summary>
     public class Ballesta : IAttackItem
     {
