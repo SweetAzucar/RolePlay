@@ -11,6 +11,8 @@ namespace RoleplayGame.Items
         Ballesta = 4,
         VaritaMagica = 5,
         ArcoMagico = 6,
+        Guantelete = 7,
+        Coraza = 8,
     }
 
     /// <summary>
@@ -33,6 +35,8 @@ namespace RoleplayGame.Items
                 case ItemType.Ballesta: return new Ballesta();
                 case ItemType.VaritaMagica: return new VaritaMagica();
                 case ItemType.ArcoMagico: return new ArcoMágico();
+                case ItemType.Guantelete: return new Guantlet();
+                case ItemType.Coraza: return new Coraza();
                 default: return null;
             }
         }
