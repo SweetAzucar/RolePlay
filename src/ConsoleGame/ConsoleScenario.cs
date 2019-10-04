@@ -182,11 +182,13 @@ namespace Program
         /// <param name="item">El item al que se agregarán objectos</param>
         protected virtual void AddObjectsToItem(IItem item)
         {
-            /*
-                Si un item se compone de otros (como un Guante de Poder),
-                puedes agregar aquí el código necesario para interactuar
-                con el usuario.
-            */
+            if (item is Guantlet)
+            {
+                Guantlet guantlet;
+                guantlet = (Guantlet) item;
+                guantlet.AddGem(new RedGem());
+                guantlet.AddGem(new BlueGem());
+            }
         }
 
         /// <summary>
