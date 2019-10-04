@@ -1,22 +1,26 @@
 namespace RoleplayGame.Items
 {
-    public class Canionaso : IAttackItem
+    /// <summary>
+    /// Gema roja.
+    /// </summary>
+    public class RedGem : IGem
     {
         /// <summary>
         /// El poder de ataque
         /// </summary>
         /// <value></value>
-        public int AttackPower
+        public int AddedPower
         {
             get
             {
-                return 100;
+                return 45;
             }
         }
 
         public override string ToString()
         {
-            return "Cañonaso";
+            return "Gema Roja";
         }
+
     }
 }

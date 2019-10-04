@@ -8,7 +8,8 @@ namespace RoleplayGame.Characters
         Elf = 1,
         Wizard = 2,
 
-        Troll = 3
+        Troll = 3,
+        Dwarf = 4 
     }
 
     /// <summary>
@@ -27,6 +28,7 @@ namespace RoleplayGame.Characters
                 case CharacterType.Wizard: return new Wizard(name);
                 case CharacterType.Troll: return new Troll(name);
 
+                case CharacterType.Dwarf: return new Dwarf(name);
                 default: throw new System.Exception($"Invalid character {type}");
             }
         }

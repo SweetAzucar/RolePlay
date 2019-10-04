@@ -7,6 +7,10 @@ namespace RoleplayGame.Items
     {
         Magic = 1,
         Robes = 2,
+        Canionaso = 3,
+        Ballesta = 4,
+        VaritaMagica = 5,
+        ArcoMagico = 6,
     }
 
     /// <summary>
@@ -25,7 +29,10 @@ namespace RoleplayGame.Items
             {
                 case ItemType.Magic: return new Magic();
                 case ItemType.Robes: return new Robes();
-
+                case ItemType.Canionaso: return new Canionaso();
+                case ItemType.Ballesta: return new Ballesta();
+                case ItemType.VaritaMagica: return new VaritaMagica();
+                case ItemType.ArcoMagico: return new ArcoMágico();
                 default: return null;
             }
         }
