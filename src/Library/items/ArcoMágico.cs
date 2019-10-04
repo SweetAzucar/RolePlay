@@ -8,7 +8,7 @@ namespace RoleplayGame.Items
         {
             get
             {
-                return AtaackPower.Magia + 20;
+                return Magia.AttackPower + 20;
             }
         }
 
