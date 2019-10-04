@@ -8,9 +8,12 @@ namespace RoleplayGame.Items
         {
             get
             {
-                return AtaackPower.Magia + 20;
+                return Magia.AttackPower + 20;
             }
         }
-
+        public override string ToString()
+        {
+            return "Arco Magico";
+        }
     }
 }
