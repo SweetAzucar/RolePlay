@@ -7,7 +7,10 @@ namespace RoleplayGame.Characters
     {
         Elf = 1,
         Wizard = 2,
-        Dwarf = 3, 
+
+        Troll = 3,
+        Dwarf = 4,
+        Fairy=5
     }
 
     /// <summary>
@@ -24,6 +27,8 @@ namespace RoleplayGame.Characters
             {
                 case CharacterType.Elf: return new Elf(name);
                 case CharacterType.Wizard: return new Wizard(name);
+                case CharacterType.Troll: return new Troll(name);
+                case CharacterType.Fairy: return new Fairy(name);
                 case CharacterType.Dwarf: return new Dwarf(name);
                 default: throw new System.Exception($"Invalid character {type}");
             }
